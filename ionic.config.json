@@ -1,0 +1,7 @@
+{
+  "name": "imageDetecor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
