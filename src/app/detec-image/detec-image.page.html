@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>detecImage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <img #image src="../../assets/detector.jpg" id="image" style="position: absolute;">
+  </div>
+  <ion-button (click)="handleClick()"></ion-button>
+  <!-- <video #video id="video" width="100%"></video>
+  <canvas #canvas id="canvas"></canvas> -->
+</ion-content>
